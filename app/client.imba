@@ -29,12 +29,15 @@ tag app
 			0% transform: rotate(0)
 			100% transform: rotate(359deg)
 
+		css .flipped
+			transform:rotate(180deg)
+
 		<.links>
 			<div> "FUCK YOU"
 			<a href="https://www.youtube.com/channel/UC4gV5mwN6hCZxnoJ4jX5YWg"> <svg src='./assets/youtube.svg'>
 			<a href="https://www.instagram.com/worldgenius2/"> <svg src='./assets/instagram.svg'>
 			<a href="https://podcasts.apple.com/us/podcast/world-genius/id1600005067"> <svg src='./assets/itunes.svg'>
 			<a href="https://open.spotify.com/show/3l4hY6Qh4g5MZvHJDB5fi5?si=8181918444734f6c"> <svg src='./assets/spotify.svg'>
-			<div> "FUCK YOU"
+			<.flipped> "FUCK YOU"
 
 imba.mount <app>
