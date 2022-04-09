@@ -1,5 +1,5 @@
 global css html ff:sans
-global css body d:flex fld:column jc:center ai:center m:0 bg:#0d001c
+global css body d:flex fld:column jc:center ai:center m:0 bg:#ffa8d5
 
 tag app
 
@@ -10,7 +10,7 @@ tag app
 
 		css svg, img
 			transition:transform 250ms
-			bxs:1px 1px 10px -5px blue
+			bxs:1px 1px 10px -5px black
 			rd:20px mb:20px h:100px
 
 			@hover
