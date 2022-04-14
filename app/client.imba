@@ -1,7 +1,7 @@
 let p = console.log
 
 global css html ff:sans
-global css body d:flex fld:column jc:center ai:center m:0 bg:url('./assets/pat.png') of:hidden
+global css body d:flex fld:column jc:center ai:center m:0 bg:url('./pat.png') of:hidden
 
 def rand min, max
 	min = Math.ceil(min)
