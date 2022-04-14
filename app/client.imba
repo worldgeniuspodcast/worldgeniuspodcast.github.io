@@ -42,7 +42,7 @@ tag Funny
 		self.style.left = x + 'px'
 		self.style.top = y + 'px'
 
-		<self[pos:absolute d:block white-space:nowrap]>
+		<self[pos:absolute d:block white-space:nowrap fs:40px]>
 			<slot>
 
 tag app
@@ -61,13 +61,16 @@ tag app
 				@hover
 					transform:scale(1.15)
 
-			<Funny> 'FUCK YOU'
-			<Funny> 'FUCK YOU'
-			<Funny> 'FUCK YOU'
-			<Funny> 'FUCK YOU'
-			<Funny> <a href="https://www.youtube.com/channel/UC4gV5mwN6hCZxnoJ4jX5YWg"> <svg src='./assets/youtube.svg'>
-			<Funny> <a href="https://www.instagram.com/worldgenius2/"> <svg src='./assets/instagram.svg'>
 			<Funny> <a href="https://podcasts.apple.com/us/podcast/world-genius/id1600005067"> <svg src='./assets/itunes.svg'>
+			<Funny> <a href="https://www.instagram.com/worldgenius2/"> <svg src='./assets/instagram.svg'>
 			<Funny> <a href="https://open.spotify.com/show/3l4hY6Qh4g5MZvHJDB5fi5?si=8181918444734f6c"> <svg src='./assets/spotify.svg'>
+			<Funny> <a href="https://www.youtube.com/c/worldgeniuspodcast"> <svg src='./assets/youtube.svg'>
+			<Funny> '😘'
+			<Funny> '😍'
+			<Funny> '😂'
+			<Funny> '😭'
+			<Funny> '😊'
+			<Funny> '😉'
+			<Funny> '😱'
 
 imba.mount <app>
