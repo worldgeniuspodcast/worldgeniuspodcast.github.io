@@ -1,0 +1,20 @@
+{
+  "entry:app/client.imba?web": {
+    "url": "/assets/client.6CED56IL.js",
+    "path": "/Users/user/repo/worldgeniuspodcast.github.io/dist/assets/client.6CED56IL.js"
+  },
+  "*?css": {
+    "url": "/assets/index.TJLORJPJ.css",
+    "path": "/Users/user/repo/worldgeniuspodcast.github.io/dist/assets/index.TJLORJPJ.css"
+  },
+  "/index.html": {},
+  "/assets/shop.WIQF6HNV.svg": {},
+  "/assets/itunes.23VE4LYY.svg": {},
+  "/assets/instagram.GCWVGFUW.svg": {},
+  "/assets/spotify.JRDLW5KD.svg": {},
+  "/assets/youtube.D5U46WVE.svg": {},
+  "/assets/client.6CED56IL.js": {},
+  "/assets/client.QYKGKGQT.css": {},
+  "/assets/index.TJLORJPJ.css": {},
+  "main": "index.html"
+}
