@@ -1,9 +1,9 @@
 {
   "name": "worldgeniuspodcast",
   "scripts": {
-    "start": "imba run --baseurl . -w server.imba",
-    "build": "npx imba build --baseurl . -SMH server.imba",
-    "deploy": "npm run build && npx touch dist/public/.nojekyll && echo worldgeni.us > dist/public/CNAME && npx gh-pages --no-history --dotfiles --dist dist/public"
+    "dev": "imba app/index.html",
+    "build": "imba build app/index.html",
+    "deploy": "npm run build && npx touch dist/.nojekyll && echo worldgeni.us > dist/CNAME && npx gh-pages --no-history --dotfiles --dist dist/"
   },
   "dependencies": {
     "express": "^4.17.1",
